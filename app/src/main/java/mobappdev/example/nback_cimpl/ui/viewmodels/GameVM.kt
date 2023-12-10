@@ -70,6 +70,8 @@ class GameVM(
     private val nBackHelper = NBackHelper()  // Helper that generate the event array
     private var events = emptyArray<Int>()  // Array with all events
 
+    private var matchCheckedForCurrentEvent = false
+
     override fun setGameType(gameType: GameType) {
         // update the gametype in the gamestate
         _gameState.value = _gameState.value.copy(gameType = gameType)
@@ -79,7 +81,9 @@ class GameVM(
         job?.cancel()  // Cancel any existing game loop
 
         // Get the events from our C-model (returns IntArray, so we need to convert to Array<Int>)
-        events = nBackHelper.generateNBackString(10, 9, 30, nBack).toList().toTypedArray()  // Todo Higher Grade: currently the size etc. are hardcoded, make these based on user input
+        //events = nBackHelper.generateNBackString(10, 9, 30, nBack).toList().toTypedArray()  // Todo Higher Grade: currently the size etc. are hardcoded, make these based on user input
+        events = arrayOf(1, 2, 9, 2, 1, 3, 2, 7, 3, 7)
+
         Log.d("GameVM", "The following sequence was generated: ${events.contentToString()}")
 
         job = viewModelScope.launch {
@@ -97,6 +101,21 @@ class GameVM(
          * Todo: This function should check if there is a match when the user presses a match button
          * Make sure the user can only register a match once for each event.
          */
+        if(!matchCheckedForCurrentEvent){
+            val currentIndex = events.indexOf(gameState.value.eventValue)
+            if (currentIndex >= nBack) { // Ensure we have enough previous elements
+                if (events[currentIndex - nBack] == gameState.value.eventValue) {
+                    // It's a match
+                    _score.value += 1 // Increase score for correct match
+                } else {
+                    // Not a match
+                    // Handle incorrect guess, if needed
+                }
+            }
+            matchCheckedForCurrentEvent = true
+        }
+
+
     }
     private fun runAudioGame() {
         // Todo: Make work for Basic grade
@@ -106,7 +125,9 @@ class GameVM(
         // Todo: Replace this code for actual game code
         for (value in events) {
             _gameState.value = _gameState.value.copy(eventValue = value)
+            matchCheckedForCurrentEvent = false
             delay(eventInterval)
+
         }
 
     }
@@ -151,7 +172,7 @@ class FakeVM: GameViewModel{
     override val gameState: StateFlow<GameState>
         get() = MutableStateFlow(GameState()).asStateFlow()
     override val score: StateFlow<Int>
-        get() = MutableStateFlow(2).asStateFlow()
+        get() = MutableStateFlow(0).asStateFlow()
     override val highscore: StateFlow<Int>
         get() = MutableStateFlow(42).asStateFlow()
     override val nBack: Int
