@@ -71,6 +71,7 @@ class GameVM(
     private var events = emptyArray<Int>()  // Array with all events
 
     private var matchCheckedForCurrentEvent = false
+    private var currentIndex = 0
 
     override fun setGameType(gameType: GameType) {
         // update the gametype in the gamestate
@@ -101,16 +102,13 @@ class GameVM(
          * Todo: This function should check if there is a match when the user presses a match button
          * Make sure the user can only register a match once for each event.
          */
-        if(!matchCheckedForCurrentEvent){
-            val currentIndex = events.indexOf(gameState.value.eventValue)
-            if (currentIndex >= nBack) { // Ensure we have enough previous elements
-                if (events[currentIndex - nBack] == gameState.value.eventValue) {
-                    // It's a match
-                    _score.value += 1 // Increase score for correct match
-                } else {
-                    // Not a match
-                    // Handle incorrect guess, if needed
-                }
+        if (!matchCheckedForCurrentEvent && currentIndex >= nBack) {
+            // Now use 'currentIndex' instead of 'events.indexOf'
+            if (events[currentIndex - nBack] == gameState.value.eventValue) {
+                _score.value += 1
+                Log.d("GameVM", "Match found, score updated to: ${_score.value}")
+            } else {
+                Log.d("GameVM", "No match found for event value: ${gameState.value.eventValue}")
             }
             matchCheckedForCurrentEvent = true
         }
@@ -123,11 +121,11 @@ class GameVM(
 
     private suspend fun runVisualGame(events: Array<Int>){
         // Todo: Replace this code for actual game code
-        for (value in events) {
+        for ((index, value) in events.withIndex()) {
+            currentIndex = index // Update the current index
             _gameState.value = _gameState.value.copy(eventValue = value)
             matchCheckedForCurrentEvent = false
             delay(eventInterval)
-
         }
 
     }

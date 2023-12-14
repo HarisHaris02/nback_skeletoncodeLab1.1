@@ -42,6 +42,7 @@ import mobappdev.example.nback_cimpl.ui.viewmodels.GameViewModel
 @Composable
 fun GameScreen(navController: NavController, vm: GameViewModel) {
     val highscore by vm.highscore.collectAsState()  // Highscore is its own StateFlow
+    val score by vm.score.collectAsState() // Score is its own StateFlow
     val gameState by vm.gameState.collectAsState()
     val snackBarHostState = remember { SnackbarHostState() }
     val scope = rememberCoroutineScope()
@@ -58,7 +59,7 @@ fun GameScreen(navController: NavController, vm: GameViewModel) {
         ) {
             Text(
                 modifier = Modifier.padding(32.dp),
-                text = "High-Score = $highscore",
+                text = "Score = $score",
                 style = MaterialTheme.typography.headlineLarge
             )
             // Todo: You'll probably want to change this "BOX" part of the composable
@@ -84,7 +85,7 @@ fun GameScreen(navController: NavController, vm: GameViewModel) {
                                     .aspectRatio(1f)
                                     .weight(1f)
                                     .background(
-                                        if(index == gameState.eventValue - 1) MaterialTheme.colorScheme.secondary
+                                        if (index == gameState.eventValue - 1) MaterialTheme.colorScheme.secondary
                                         else MaterialTheme.colorScheme.primary,
                                         shape = RoundedCornerShape(32.dp)
                                     ), // Add clickable modifier here
