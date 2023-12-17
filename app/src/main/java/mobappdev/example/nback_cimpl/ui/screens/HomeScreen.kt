@@ -105,13 +105,12 @@ fun HomeScreen( navController: NavController, vm: GameViewModel) {
                 horizontalArrangement = Arrangement.SpaceAround,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Button(onClick = {
-                    // Todo: change this button behaviour
-                    scope.launch {
-                        snackBarHostState.showSnackbar(
-                            message = "Hey! you clicked the audio button"
-                        )
-                    }
+                Button(
+                    onClick = {
+                        vm.setGameType(GameType.Audio)
+                        vm.startGame()
+                        navController.navigate("game") {}
+
                 }) {
                     Icon(
                         painter = painterResource(id = R.drawable.sound_on),
@@ -123,17 +122,9 @@ fun HomeScreen( navController: NavController, vm: GameViewModel) {
                 }
                 Button(
                     onClick = {
-                        // Todo: change this button behaviour
-                        /*scope.launch {
-                            snackBarHostState.showSnackbar(
-                                message = "Hey! you clicked the visual button",
-                                duration = SnackbarDuration.Short
-                            )*/
                         vm.setGameType(GameType.Visual)
                         vm.startGame()
-                        navController.navigate("game") {
-
-                        }
+                        navController.navigate("game") {}
                         //Text("Start Game")
                     }) {
                     Icon(

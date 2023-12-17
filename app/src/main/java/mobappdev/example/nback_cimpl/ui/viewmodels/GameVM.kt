@@ -1,5 +1,7 @@
 package mobappdev.example.nback_cimpl.ui.viewmodels
 
+import TTSManager
+import android.content.Context
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -43,11 +45,13 @@ interface GameViewModel {
     fun setGameType(gameType: GameType)
     fun startGame()
 
-    fun checkMatch()
+    fun checkMatch(): Boolean
 }
 
+
 class GameVM(
-    private val userPreferencesRepository: UserPreferencesRepository
+    private val userPreferencesRepository: UserPreferencesRepository,
+    context: Context
 ): GameViewModel, ViewModel() {
     private val _gameState = MutableStateFlow(GameState())
     override val gameState: StateFlow<GameState>
@@ -73,6 +77,8 @@ class GameVM(
     private var matchCheckedForCurrentEvent = false
     private var currentIndex = 0
 
+    private val ttsManager = TTSManager(context)
+
     override fun setGameType(gameType: GameType) {
         // update the gametype in the gamestate
         _gameState.value = _gameState.value.copy(gameType = gameType)
@@ -82,8 +88,8 @@ class GameVM(
         job?.cancel()  // Cancel any existing game loop
 
         // Get the events from our C-model (returns IntArray, so we need to convert to Array<Int>)
-        //events = nBackHelper.generateNBackString(10, 9, 30, nBack).toList().toTypedArray()  // Todo Higher Grade: currently the size etc. are hardcoded, make these based on user input
-        events = arrayOf(1, 2, 9, 2, 1, 3, 2, 7, 3, 7)
+        events = nBackHelper.generateNBackString(10, 9, 30, nBack).toList().toTypedArray()  // Todo Higher Grade: currently the size etc. are hardcoded, make these based on user input
+        //events = arrayOf(1, 2, 9, 2, 1, 3, 2, 7, 3, 7)
 
         Log.d("GameVM", "The following sequence was generated: ${events.contentToString()}")
 
@@ -97,26 +103,57 @@ class GameVM(
         }
     }
 
-    override fun checkMatch() {
-        /**
-         * Todo: This function should check if there is a match when the user presses a match button
-         * Make sure the user can only register a match once for each event.
-         */
+
+
+    override fun checkMatch(): Boolean {
         if (!matchCheckedForCurrentEvent && currentIndex >= nBack) {
-            // Now use 'currentIndex' instead of 'events.indexOf'
-            if (events[currentIndex - nBack] == gameState.value.eventValue) {
+            val isMatch = events[currentIndex - nBack] == gameState.value.eventValue
+            if (isMatch) {
                 _score.value += 1
-                Log.d("GameVM", "Match found, score updated to: ${_score.value}")
-            } else {
-                Log.d("GameVM", "No match found for event value: ${gameState.value.eventValue}")
             }
             matchCheckedForCurrentEvent = true
+            return isMatch
         }
-
-
+        return false
     }
     private fun runAudioGame() {
-        // Todo: Make work for Basic grade
+        viewModelScope.launch {
+            events.forEachIndexed { index, eventNumber ->
+                val letter = numberToLetter(eventNumber)
+                ttsManager.speak(letter)
+
+                // Update the current index and game state
+                currentIndex = index
+                _gameState.value = _gameState.value.copy(eventValue = eventNumber)
+
+                // Add a delay to allow the TTS to finish speaking
+                delay(eventInterval)
+
+                // Reset matchCheckedForCurrentEvent for the next event
+                matchCheckedForCurrentEvent = false
+            }
+        }
+    }
+
+
+    private fun numberToLetter(number: Int): String {
+        return when (number-1) {
+            0 -> "A"
+            1 -> "B"
+            2 -> "C"
+            3 -> "D"
+            4 -> "E"
+            5 -> "F"
+            6 -> "G"
+            7 -> "H"
+            8 -> "I"
+            else -> "Invalid"
+        }
+    }
+
+    override fun onCleared() {
+        ttsManager.shutdown()
+        super.onCleared()
     }
 
     private suspend fun runVisualGame(events: Array<Int>){
@@ -138,10 +175,11 @@ class GameVM(
         val Factory: ViewModelProvider.Factory = viewModelFactory {
             initializer {
                 val application = (this[APPLICATION_KEY] as GameApplication)
-                GameVM(application.userPreferencesRespository)
+                GameVM(application.userPreferencesRespository, application.applicationContext)
             }
         }
     }
+
 
     init {
         // Code that runs during creation of the vm
@@ -162,7 +200,7 @@ enum class GameType{
 
 data class GameState(
     // You can use this state to push values from the VM to your UI.
-    val gameType: GameType = GameType.Visual,  // Type of the game
+    val gameType: GameType = GameType.Audio,  // Type of the game
     val eventValue: Int = -1  // The value of the array string
 )
 
@@ -182,6 +220,7 @@ class FakeVM: GameViewModel{
     override fun startGame() {
     }
 
-    override fun checkMatch() {
+    override fun checkMatch(): Boolean {
+        return true
     }
 }

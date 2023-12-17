@@ -10,190 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f13c9dbf-3120-490d-8859-d9a5c7a47ff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/.cmake/api/v1/reply/cache-v2-a1512aa1ed3c3274d59e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-29ddd67e0cd3d813e56e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/.cmake/api/v1/reply/codemodel-v2-f67d582e44e207bd10f5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/.cmake/api/v1/reply/index-2023-12-10T19-55-43-0937.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/.cmake/api/v1/reply/target-JniBridge-Debug-4800416899adeddc3c07.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/.cmake/api/v1/reply/target-nback_cimpl-Debug-ecab492dec74262991e0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeFiles/JniBridge.dir/JniBridge.c.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeFiles/nback_cimpl.dir/nback.c.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/additional_project_files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/android_gradle_build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/android_gradle_build_mini.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/build_file_index.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/compile_commands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/compile_commands.json.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/configure_fingerprint.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/metadata_generation_command.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/prefab_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/arm64-v8a/symbol_folder_index.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/.cmake/api/v1/reply/cache-v2-c8723beb462b72fc5220.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/.cmake/api/v1/reply/cmakeFiles-v1-d944eaee6fc887d8bc1e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/.cmake/api/v1/reply/codemodel-v2-396a88652b5db37c96f2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/.cmake/api/v1/reply/index-2023-12-10T19-55-51-0243.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/.cmake/api/v1/reply/target-JniBridge-Debug-deb40355a62603d0a4a6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/.cmake/api/v1/reply/target-nback_cimpl-Debug-6cbed972a39da04776e3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeFiles/JniBridge.dir/JniBridge.c.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeFiles/nback_cimpl.dir/nback.c.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/additional_project_files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/android_gradle_build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/android_gradle_build_mini.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/build_file_index.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/compile_commands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/compile_commands.json.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/configure_fingerprint.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/metadata_generation_command.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/prefab_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/armeabi-v7a/symbol_folder_index.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86/CMakeFiles/JniBridge.dir/JniBridge.c.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86/CMakeFiles/nback_cimpl.dir/nback.c.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/.cmake/api/v1/reply/cache-v2-31d7a8d6766581fd90cb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/.cmake/api/v1/reply/cmakeFiles-v1-729167609a16767d7c4f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/.cmake/api/v1/reply/codemodel-v2-8f0be4d6d0e3337ace41.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/.cmake/api/v1/reply/index-2023-12-10T19-46-38-0314.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/.cmake/api/v1/reply/target-JniBridge-Debug-c67992d4d6a46866541b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/.cmake/api/v1/reply/target-nback_cimpl-Debug-5d8c42ea3fe00a90c1f1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeFiles/JniBridge.dir/JniBridge.c.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeFiles/nback_cimpl.dir/nback.c.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/additional_project_files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/android_gradle_build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/android_gradle_build_mini.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/build_file_index.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/compile_commands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/compile_commands.json.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/configure_fingerprint.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/metadata_generation_command.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/prefab_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/symbol_folder_index.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/hash_key.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/.cmake/api/v1/reply/cache-v2-5d2ccf3b8adefcdf227d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/.cmake/api/v1/reply/cmakeFiles-v1-c963dc332481ed61bc8d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/.cmake/api/v1/reply/codemodel-v2-d7f6f14fc292a1639cc6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/.cmake/api/v1/reply/index-2023-12-10T19-03-16-0813.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/.cmake/api/v1/reply/target-JniBridge-Debug-a6208834e7ab0cb073bf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/.cmake/api/v1/reply/target-nback_cimpl-Debug-d3ba9c2a3af7a5ed4e75.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/additional_project_files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/android_gradle_build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/android_gradle_build_mini.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/build_file_index.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/compile_commands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/compile_commands.json.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/configure_fingerprint.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/metadata_generation_command.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/prefab_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/Debug/621g295t/x86/symbol_folder_index.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2d2q2t1x/x86/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.cxx/tools/debug/armeabi-v7a/compile_commands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/mobappdev/example/nback_cimpl/TTSManager.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/NBack_CImpl.app.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/3e01z3q1/x86/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/3e01z3q1/x86/configure_fingerprint.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/5x6dk4w5/x86/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/5x6dk4w5/x86/configure_fingerprint.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/tools/debug/arm64-v8a/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/tools/debug/arm64-v8a/compile_commands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/tools/debug/x86/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/tools/debug/x86/compile_commands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/tools/debug/x86_64/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/tools/debug/x86_64/compile_commands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.cxx/tools/release/x86/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/tools/release/x86/compile_commands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86/configure_fingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/Debug/24663c49/x86_64/configure_fingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2d2q2t1x/x86/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/.cxx/RelWithDebInfo/2d2q2t1x/x86/configure_fingerprint.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/mobappdev/example/nback_cimpl/ui/screens/GameScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mobappdev/example/nback_cimpl/ui/screens/GameScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mobappdev/example/nback_cimpl/ui/screens/HomeScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mobappdev/example/nback_cimpl/ui/screens/HomeScreen.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/mobappdev/example/nback_cimpl/ui/viewmodels/GameVM.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mobappdev/example/nback_cimpl/ui/viewmodels/GameVM.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -224,29 +56,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;com.android.tools.idea.devicemanager.tab&quot;: &quot;Physical&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HarisHadziabdic/AndroidStudioProjects/nback_skeletoncodeLab1.1&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/HarisHadziabdic/AndroidStudioProjects/nback_skeletoncodeLab1.1",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;ObjectiveC&quot;,
-      &quot;CMake&quot;,
-      &quot;TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "ObjectiveC",
+      "CMake",
+      "TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Properties" />
     <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
