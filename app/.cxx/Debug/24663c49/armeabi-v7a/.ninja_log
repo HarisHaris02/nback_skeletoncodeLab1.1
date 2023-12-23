@@ -3,3 +3,10 @@
 1	406	7239413521840395	CMakeFiles/nback_cimpl.dir/nback.c.o	caea8c1d1046c5e
 407	669	7239413525301140	C:/Users/HarisHadziabdic/AndroidStudioProjects/nback_skeletoncodeLab1.1/app/build/intermediates/cxx/Debug/24663c49/obj/armeabi-v7a/libnback_cimpl.so	2365d04d7dd04a0f
 670	1030	7239413528931450	C:/Users/HarisHadziabdic/AndroidStudioProjects/nback_skeletoncodeLab1.1/app/build/intermediates/cxx/Debug/24663c49/obj/armeabi-v7a/libJniBridge.so	7f7e17951fc271f2
+1	17	0	clean	1fdc353781a6a46
+0	14	0	clean	1fdc353781a6a46
+1	11	0	clean	1fdc353781a6a46
+11	776	7250445408296074	CMakeFiles/nback_cimpl.dir/nback.c.o	caea8c1d1046c5e
+17	828	7250445408316039	CMakeFiles/JniBridge.dir/JniBridge.c.o	26ffd98a0a247bd
+777	1333	7250445413887181	C:/Users/HarisHadziabdic/AndroidStudioProjects/nback_skeletoncodeLab1.1/app/build/intermediates/cxx/Debug/24663c49/obj/armeabi-v7a/libnback_cimpl.so	2365d04d7dd04a0f
+1334	1558	7250445416266903	C:/Users/HarisHadziabdic/AndroidStudioProjects/nback_skeletoncodeLab1.1/app/build/intermediates/cxx/Debug/24663c49/obj/armeabi-v7a/libJniBridge.so	7f7e17951fc271f2

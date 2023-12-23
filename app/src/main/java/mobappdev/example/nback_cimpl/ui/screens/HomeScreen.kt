@@ -51,7 +51,7 @@ import mobappdev.example.nback_cimpl.ui.viewmodels.GameViewModel
  */
 
 @Composable
-fun HomeScreen( navController: NavController, vm: GameViewModel) {
+fun HomeScreen(navController: NavController, vm: GameViewModel) {
     val highscore by vm.highscore.collectAsState()  // Highscore is its own StateFlow
     val gameState by vm.gameState.collectAsState()
     val snackBarHostState = remember { SnackbarHostState() }
@@ -81,16 +81,21 @@ fun HomeScreen( navController: NavController, vm: GameViewModel) {
                     Modifier.fillMaxWidth(),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-                    if (gameState.eventValue != -1) {
-                        Text(
-                            modifier = Modifier.fillMaxWidth(),
-                            text = "Current eventValue is: ${gameState.eventValue}",
-                            textAlign = TextAlign.Center
-                        )
-                    }
-                    Button(onClick = vm::startGame) {
-                        Text(text = "Generate eventValues")
-                    }
+                    Text(
+                        modifier = Modifier.padding(bottom = 16.dp),
+                        text = "Number of Events = 20",
+                        style = MaterialTheme.typography.headlineLarge
+                    )
+                    Text(
+                        modifier = Modifier.padding(bottom = 16.dp),
+                        text = "Interval = 2 seconds",
+                        style = MaterialTheme.typography.headlineLarge
+                    )
+                    Text(
+                        modifier = Modifier.padding(bottom = 16.dp),
+                        text = "N-back = 2",
+                        style = MaterialTheme.typography.headlineLarge
+                    )
                 }
             }
             Text(
@@ -125,7 +130,6 @@ fun HomeScreen( navController: NavController, vm: GameViewModel) {
                         vm.setGameType(GameType.Visual)
                         vm.startGame()
                         navController.navigate("game") {}
-                        //Text("Start Game")
                     }) {
                     Icon(
                         painter = painterResource(id = R.drawable.visual),

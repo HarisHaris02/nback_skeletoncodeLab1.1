@@ -9,9 +9,7 @@ class TTSManager(context: Context) {
         tts = TextToSpeech(context) { status ->
             if (status == TextToSpeech.SUCCESS) {
                 tts?.language = Locale.US
-                // Configure other TTS properties if needed
             } else {
-                // Handle initialization failure
             }
         }
     }
